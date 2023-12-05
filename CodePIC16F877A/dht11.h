@@ -1,0 +1,57 @@
+#define DHT11_PIN PIN_C0    // connection pin between DHT11 and mcu
+short Time_out;
+
+void start_signal(){
+  output_drive(DHT11_PIN);    // configure connection pin as output
+  output_low(DHT11_PIN);      // connection pin output low
+  delay_ms(25);
+  output_high(DHT11_PIN);     // connection pin output high
+  delay_us(30);
+  output_float(DHT11_PIN);    // configure connection pin as input
+}
+
+
+short check_response(){
+  delay_us(40);
+  if(!input(DHT11_PIN)){      // read and test if connection pin is low
+    delay_us(80);
+    if(input(DHT11_PIN)){     // read and test if connection pin is high
+      delay_us(50);
+      return 1;
+    }
+  }
+}
+unsigned int8 Read_Data(){
+  unsigned int8 i, k, _data = 0;        // k is used to count 1 bit reading duration
+  if(Time_out)
+    break;
+  for(i = 0; i < 8; i++){
+    k = 0;
+    while(!input(DHT11_PIN)){           // Wait until DHT11 pin get raised
+      k++;
+      if(k > 250){
+        Time_out = 1;
+        break;
+      }
+      delay_us(1);
+    }
+    delay_us(30);
+    if(!input(DHT11_PIN))
+      bit_clear(_data, (7 - i));        // Clear bit (7 - i)
+    else{
+      bit_set(_data, (7 - i));          // Set bit (7 - i)
+      while(input(DHT11_PIN)){          // Wait until DHT11 pin goes low
+        k++;
+        if(k > 250){
+        Time_out = 1;
+        break;
+      }
+      delay_us(1);}
+    }
+  }
+  return _data;
+  
+  }
+  
+  
+  

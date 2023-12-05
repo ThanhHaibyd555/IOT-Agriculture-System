@@ -1,0 +1,610 @@
+ÀÄmenu
+   ÀÄMAIN  3/1447  Ram=4
+      ÃÄ@cinit1  (Inline)  Ram=0
+      ÃÄ@cinit2  (Inline)  Ram=0
+      ÃÄ@delay_ms1  0/20  Ram=1
+      ÃÄLCD_Begin  0/96  Ram=1
+      ³  ÃÄExpander_Write  0/25  Ram=2
+      ³  ³  ÃÄ@I2C_WRITEU_129  0/18  Ram=1
+      ³  ³  ÀÄ@I2C_WRITEU_129  0/18  Ram=1
+      ³  ÃÄ@delay_ms1  0/20  Ram=1
+      ³  ÃÄLCD_Cmd  0/20  Ram=2
+      ³  ³  ÃÄLCD_Write_Nibble  0/31  Ram=2
+      ³  ³  ³  ÃÄExpander_Write  0/25  Ram=2
+      ³  ³  ³  ³  ÀÄ*
+      ³  ³  ³  ÃÄExpander_Write  0/25  Ram=2
+      ³  ³  ³  ³  ÀÄ*
+      ³  ³  ³  ÀÄExpander_Write  0/25  Ram=2
+      ³  ³  ³     ÀÄ*
+      ³  ³  ÀÄLCD_Write_Nibble  0/31  Ram=2
+      ³  ³     ÀÄ*
+      ³  ÃÄ@delay_ms1  0/20  Ram=1
+      ³  ÃÄLCD_Cmd  0/20  Ram=2
+      ³  ³  ÀÄ*
+      ³  ÃÄ@delay_ms1  0/20  Ram=1
+      ³  ÃÄLCD_Cmd  0/20  Ram=2
+      ³  ³  ÀÄ*
+      ³  ÃÄ@delay_ms1  0/20  Ram=1
+      ³  ÃÄLCD_Cmd  0/20  Ram=2
+      ³  ³  ÀÄ*
+      ³  ÃÄ@delay_ms1  0/20  Ram=1
+      ³  ÃÄLCD_Cmd  0/20  Ram=2
+      ³  ³  ÀÄ*
+      ³  ÃÄ@delay_ms1  0/20  Ram=1
+      ³  ÃÄLCD_Cmd  0/20  Ram=2
+      ³  ³  ÀÄ*
+      ³  ÃÄ@delay_ms1  0/20  Ram=1
+      ³  ÃÄLCD_Cmd  0/20  Ram=2
+      ³  ³  ÀÄ*
+      ³  ÃÄ@delay_ms1  0/20  Ram=1
+      ³  ÃÄLCD_Cmd  0/20  Ram=2
+      ³  ³  ÀÄ*
+      ³  ÀÄ@delay_ms1  0/20  Ram=1
+      ÃÄBH1750_init  0/12  Ram=0
+      ³  ÃÄ@delay_ms1  0/20  Ram=1
+      ³  ÀÄBH1750_write  0/19  Ram=1
+      ³     ÃÄ@I2C_WRITEU_131  0/18  Ram=1
+      ³     ÀÄ@I2C_WRITEU_131  0/18  Ram=1
+      ÃÄESP8266_init  0/142  Ram=1
+      ³  ÃÄ@PSTRINGC7_9600_62_63  0/82  Ram=4
+      ³  ÃÄ@delay_ms1  0/20  Ram=1
+      ³  ÃÄ@PSTRINGC7_9600_62_63  0/82  Ram=4
+      ³  ÃÄ@delay_ms1  0/20  Ram=1
+      ³  ÃÄ@PSTRINGC7_9600_62_63  0/82  Ram=4
+      ³  ÃÄ@delay_ms1  0/20  Ram=1
+      ³  ÃÄ@PSTRINGCN7_9600_62_63  0/86  Ram=5
+      ³  ÃÄ@PSTRINGR_9600_62_63  0/30  Ram=2
+      ³  ÃÄ@PSTRINGR_9600_62_63  0/30  Ram=2
+      ³  ÃÄ@delay_ms1  0/20  Ram=1
+      ³  ÃÄ@PSTRINGC7_9600_62_63  0/82  Ram=4
+      ³  ÀÄ@delay_ms1  0/20  Ram=1
+      ÃÄConnectWithWebServer  0/426  Ram=119
+      ³  ÃÄ@PSTRINGCN7_1055  0/88  Ram=5
+      ³  ³  ÃÄ@SPRINTF  0/17  Ram=1
+      ³  ³  ÀÄ@SPRINTF  0/17  Ram=1
+      ³  ÃÄ@PRINTF_D_1055  0/111  Ram=6
+      ³  ³  ÃÄ@DIV88  0/25  Ram=3
+      ³  ³  ÃÄ@DIV88  0/25  Ram=3
+      ³  ³  ÃÄ@SPRINTF  0/17  Ram=1
+      ³  ³  ÃÄ@SPRINTF  0/17  Ram=1
+      ³  ³  ÃÄ@SPRINTF  0/17  Ram=1
+      ³  ³  ÀÄ@SPRINTF  0/17  Ram=1
+      ³  ÃÄ@PSTRINGCN7_1055  0/88  Ram=5
+      ³  ³  ÀÄ*
+      ³  ÃÄ@PRINTF_D_1055  0/111  Ram=6
+      ³  ³  ÀÄ*
+      ³  ÃÄ@PSTRINGCN7_1055  0/88  Ram=5
+      ³  ³  ÀÄ*
+      ³  ÃÄ@PRINTF_D_1055  0/111  Ram=6
+      ³  ³  ÀÄ*
+      ³  ÃÄ@PSTRINGCN7_1055  0/88  Ram=5
+      ³  ³  ÀÄ*
+      ³  ÃÄ@PRINTF_LU_1055  (Inline)  Ram=13
+      ³  ³  ÀÄ@SPRINTF  0/17  Ram=1
+      ³  ÃÄ@PSTRINGCN7_1055  0/88  Ram=5
+      ³  ³  ÀÄ*
+      ³  ÃÄ@PSTRINGCN7_9600_62_63  0/86  Ram=5
+      ³  ÃÄ@PSTRINGR_9600_62_63  0/30  Ram=2
+      ³  ÃÄ@PSTRINGCN7_9600_62_63  0/86  Ram=5
+      ³  ÃÄ@delay_ms1  0/20  Ram=1
+      ³  ÃÄstrlen  (Inline)  Ram=5
+      ³  ÃÄ@PSTRINGCN7_9600_62_63  0/86  Ram=5
+      ³  ÃÄ@PRINTF_D_9600_62_63  (Inline)  Ram=6
+      ³  ³  ÃÄ@DIV88  0/25  Ram=3
+      ³  ³  ÀÄ@DIV88  0/25  Ram=3
+      ³  ÃÄ@delay_ms1  0/20  Ram=1
+      ³  ÃÄ@PSTRINGR_9600_62_63  0/30  Ram=2
+      ³  ÃÄ@delay_ms1  0/20  Ram=1
+      ³  ÃÄ@PSTRINGC7_9600_62_63  0/82  Ram=4
+      ³  ÀÄ@delay_ms1  0/20  Ram=1
+      ÃÄstart_signal  0/35  Ram=0
+      ³  ÀÄ@delay_ms1  0/20  Ram=1
+      ÃÄcheck_response  0/32  Ram=0
+      ÃÄRead_Data  0/112  Ram=4
+      ÃÄRead_Data  0/112  Ram=4
+      ÃÄRead_Data  0/112  Ram=4
+      ÃÄRead_Data  0/112  Ram=4
+      ÃÄRead_Data  0/112  Ram=4
+      ÃÄ@ITOF  0/33  Ram=2
+      ÃÄ@MULFF  0/121  Ram=13
+      ÃÄ@DIVFF  1/207  Ram=14
+      ÃÄ@ADDFF  1/328  Ram=16
+      ÃÄ@SFTOI  0/35  Ram=4
+      ÃÄget_lux_value  0/84  Ram=6
+      ³  ÃÄBH1750_write  0/19  Ram=1
+      ³  ³  ÀÄ*
+      ³  ÃÄBH1750_write  0/19  Ram=1
+      ³  ³  ÀÄ*
+      ³  ÃÄBH1750_read_word  (Inline)  Ram=4
+      ³  ³  ÃÄ@I2C_WRITEU_131  0/18  Ram=1
+      ³  ³  ÃÄ@I2C_READU_131  0/16  Ram=1
+      ³  ³  ÀÄ@I2C_READU_131  0/16  Ram=1
+      ³  ÃÄ@delay_ms1  0/20  Ram=1
+      ³  ÃÄ@delay_ms1  0/20  Ram=1
+      ³  ÀÄBH1750_write  0/19  Ram=1
+      ³     ÀÄ*
+      ÃÄphim_ONOFF  1/49  Ram=3
+      ³  ÃÄ@delay_ms1  0/20  Ram=1
+      ³  ÀÄxoa_LCD  0/19  Ram=0
+      ³     ÀÄlcd_putc  (Inline)  Ram=1
+      ³        ÃÄLCD_Cmd  0/20  Ram=2
+      ³        ³  ÀÄ*
+      ³        ÀÄ@delay_ms1  0/20  Ram=1
+      ÃÄmode_OFF  1/403  Ram=4
+      ³  ÃÄLCD_Goto  1/57  Ram=3
+      ³  ³  ÃÄLCD_Cmd  0/20  Ram=2
+      ³  ³  ³  ÀÄ*
+      ³  ³  ÃÄLCD_Cmd  0/20  Ram=2
+      ³  ³  ³  ÀÄ*
+      ³  ³  ÃÄLCD_Cmd  0/20  Ram=2
+      ³  ³  ³  ÀÄ*
+      ³  ³  ÀÄLCD_Cmd  0/20  Ram=2
+      ³  ³     ÀÄ*
+      ³  ÃÄ@PSTRINGC7_723  1/120  Ram=4
+      ³  ³  ÃÄLCD_Out  0/20  Ram=2
+      ³  ³  ³  ÃÄLCD_Write_Nibble  0/31  Ram=2
+      ³  ³  ³  ³  ÀÄ*
+      ³  ³  ³  ÀÄLCD_Write_Nibble  0/31  Ram=2
+      ³  ³  ³     ÀÄ*
+      ³  ³  ÀÄLCD_Out  0/20  Ram=2
+      ³  ³     ÀÄ*
+      ³  ÃÄLCD_Goto  1/57  Ram=3
+      ³  ³  ÀÄ*
+      ³  ÃÄ@PSTRINGC7_723  1/120  Ram=4
+      ³  ³  ÀÄ*
+      ³  ÃÄLCD_Goto  1/57  Ram=3
+      ³  ³  ÀÄ*
+      ³  ÃÄ@PSTRINGC7_723  1/120  Ram=4
+      ³  ³  ÀÄ*
+      ³  ÃÄLCD_Goto  1/57  Ram=3
+      ³  ³  ÀÄ*
+      ³  ÃÄ@PSTRINGCN7_723  1/126  Ram=5
+      ³  ³  ÃÄLCD_Out  0/20  Ram=2
+      ³  ³  ³  ÀÄ*
+      ³  ³  ÀÄLCD_Out  0/20  Ram=2
+      ³  ³     ÀÄ*
+      ³  ÃÄ@PRINTF_U_723  1/77  Ram=2
+      ³  ³  ÃÄ@DIV88  0/25  Ram=3
+      ³  ³  ÃÄLCD_Out  0/20  Ram=2
+      ³  ³  ³  ÀÄ*
+      ³  ³  ÃÄ@DIV88  0/25  Ram=3
+      ³  ³  ÃÄLCD_Out  0/20  Ram=2
+      ³  ³  ³  ÀÄ*
+      ³  ³  ÀÄLCD_Out  0/20  Ram=2
+      ³  ³     ÀÄ*
+      ³  ÃÄLCD_Goto  1/57  Ram=3
+      ³  ³  ÀÄ*
+      ³  ÃÄ@PSTRINGCN7_723  1/126  Ram=5
+      ³  ³  ÀÄ*
+      ³  ÃÄ@PRINTF_U_723  1/77  Ram=2
+      ³  ³  ÀÄ*
+      ³  ÃÄLCD_Goto  1/57  Ram=3
+      ³  ³  ÀÄ*
+      ³  ÃÄ@PSTRINGCN7_723  1/126  Ram=5
+      ³  ³  ÀÄ*
+      ³  ÃÄ@PRINTF_U_723  1/77  Ram=2
+      ³  ³  ÀÄ*
+      ³  ÃÄLCD_Goto  1/57  Ram=3
+      ³  ³  ÀÄ*
+      ³  ÃÄ@PSTRINGCN7_723  1/126  Ram=5
+      ³  ³  ÀÄ*
+      ³  ÃÄ@PRINTF_LU_723  (Inline)  Ram=9
+      ³  ³  ÀÄLCD_Out  0/20  Ram=2
+      ³  ³     ÀÄ*
+      ³  ÃÄLCD_Goto  1/57  Ram=3
+      ³  ³  ÀÄ*
+      ³  ÃÄLCD_Out  0/20  Ram=2
+      ³  ³  ÀÄ*
+      ³  ÃÄLCD_Out  0/20  Ram=2
+      ³  ³  ÀÄ*
+      ³  ÃÄ@PRINTF_D_723  1/115  Ram=6
+      ³  ³  ÃÄ@DIV88  0/25  Ram=3
+      ³  ³  ÃÄ@DIV88  0/25  Ram=3
+      ³  ³  ÃÄLCD_Out  0/20  Ram=2
+      ³  ³  ³  ÀÄ*
+      ³  ³  ÃÄLCD_Out  0/20  Ram=2
+      ³  ³  ³  ÀÄ*
+      ³  ³  ÃÄLCD_Out  0/20  Ram=2
+      ³  ³  ³  ÀÄ*
+      ³  ³  ÀÄLCD_Out  0/20  Ram=2
+      ³  ³     ÀÄ*
+      ³  ÃÄLCD_Out  0/20  Ram=2
+      ³  ³  ÀÄ*
+      ³  ÃÄLCD_Out  0/20  Ram=2
+      ³  ³  ÀÄ*
+      ³  ÃÄLCD_Out  0/20  Ram=2
+      ³  ³  ÀÄ*
+      ³  ÃÄ@PRINTF_D_723  1/115  Ram=6
+      ³  ³  ÀÄ*
+      ³  ÃÄLCD_Out  0/20  Ram=2
+      ³  ³  ÀÄ*
+      ³  ÃÄLCD_Out  0/20  Ram=2
+      ³  ³  ÀÄ*
+      ³  ÃÄLCD_Out  0/20  Ram=2
+      ³  ³  ÀÄ*
+      ³  ÃÄ@PRINTF_D_723  1/115  Ram=6
+      ³  ³  ÀÄ*
+      ³  ÃÄLCD_Out  0/20  Ram=2
+      ³  ³  ÀÄ*
+      ³  ÃÄLCD_Out  0/20  Ram=2
+      ³  ³  ÀÄ*
+      ³  ÃÄLCD_Out  0/20  Ram=2
+      ³  ³  ÀÄ*
+      ³  ÀÄ@PRINTF_D_723  1/115  Ram=6
+      ³     ÀÄ*
+      ÃÄphim_GO  1/158  Ram=3
+      ³  ÃÄ@delay_ms1  0/20  Ram=1
+      ³  ÀÄxoa_LCD  0/19  Ram=0
+      ³     ÀÄ*
+      ÃÄphim_BACK  1/108  Ram=3
+      ³  ÃÄ@delay_ms1  0/20  Ram=1
+      ³  ÀÄxoa_LCD  0/19  Ram=0
+      ³     ÀÄ*
+      ÃÄphim_LEFT  1/38  Ram=3
+      ³  ÃÄ@delay_ms1  0/20  Ram=1
+      ³  ÀÄxoa_pos_LCD  1/168  Ram=0
+      ³     ÃÄLCD_Goto  1/57  Ram=3
+      ³     ³  ÀÄ*
+      ³     ÃÄ@PSTRINGC7_723  1/120  Ram=4
+      ³     ³  ÀÄ*
+      ³     ÃÄLCD_Goto  1/57  Ram=3
+      ³     ³  ÀÄ*
+      ³     ÃÄ@PSTRINGC7_723  1/120  Ram=4
+      ³     ³  ÀÄ*
+      ³     ÃÄLCD_Goto  1/57  Ram=3
+      ³     ³  ÀÄ*
+      ³     ÃÄ@PSTRINGC7_723  1/120  Ram=4
+      ³     ³  ÀÄ*
+      ³     ÃÄLCD_Goto  1/57  Ram=3
+      ³     ³  ÀÄ*
+      ³     ÃÄ@PSTRINGC7_723  1/120  Ram=4
+      ³     ³  ÀÄ*
+      ³     ÃÄLCD_Goto  1/57  Ram=3
+      ³     ³  ÀÄ*
+      ³     ÃÄ@PSTRINGC7_723  1/120  Ram=4
+      ³     ³  ÀÄ*
+      ³     ÃÄLCD_Goto  1/57  Ram=3
+      ³     ³  ÀÄ*
+      ³     ÃÄ@PSTRINGC7_723  1/120  Ram=4
+      ³     ³  ÀÄ*
+      ³     ÃÄLCD_Goto  1/57  Ram=3
+      ³     ³  ÀÄ*
+      ³     ÃÄ@PSTRINGC7_723  1/120  Ram=4
+      ³     ³  ÀÄ*
+      ³     ÃÄLCD_Goto  1/57  Ram=3
+      ³     ³  ÀÄ*
+      ³     ÃÄ@PSTRINGC7_723  1/120  Ram=4
+      ³     ³  ÀÄ*
+      ³     ÃÄLCD_Goto  1/57  Ram=3
+      ³     ³  ÀÄ*
+      ³     ÃÄ@PSTRINGC7_723  1/120  Ram=4
+      ³     ³  ÀÄ*
+      ³     ÃÄLCD_Goto  1/57  Ram=3
+      ³     ³  ÀÄ*
+      ³     ÃÄ@PSTRINGC7_723  1/120  Ram=4
+      ³     ³  ÀÄ*
+      ³     ÃÄLCD_Goto  1/57  Ram=3
+      ³     ³  ÀÄ*
+      ³     ÃÄ@PSTRINGC7_723  1/120  Ram=4
+      ³     ³  ÀÄ*
+      ³     ÃÄLCD_Goto  1/57  Ram=3
+      ³     ³  ÀÄ*
+      ³     ÀÄ@PSTRINGC7_723  1/120  Ram=4
+      ³        ÀÄ*
+      ÃÄphim_RIGHT  1/41  Ram=3
+      ³  ÃÄ@delay_ms1  0/20  Ram=1
+      ³  ÀÄxoa_pos_LCD  1/168  Ram=0
+      ³     ÀÄ*
+      ÃÄphim_UP  1/38  Ram=3
+      ³  ÃÄ@delay_ms1  0/20  Ram=1
+      ³  ÀÄxoa_pos_LCD  1/168  Ram=0
+      ³     ÀÄ*
+      ÃÄphim_DW  2/53  Ram=3
+      ³  ÃÄ@delay_ms1  0/20  Ram=1
+      ³  ÀÄxoa_pos_LCD  1/168  Ram=0
+      ³     ÀÄ*
+      ÃÄchoice_mode  2/38  Ram=4
+      ÃÄpos_xy_current  2/352  Ram=3
+      ³  ÃÄLCD_Goto  1/57  Ram=3
+      ³  ³  ÀÄ*
+      ³  ÃÄ@PSTRINGC7_723  1/120  Ram=4
+      ³  ³  ÀÄ*
+      ³  ÃÄLCD_Goto  1/57  Ram=3
+      ³  ³  ÀÄ*
+      ³  ÃÄ@PSTRINGC7_723  1/120  Ram=4
+      ³  ³  ÀÄ*
+      ³  ÃÄLCD_Goto  1/57  Ram=3
+      ³  ³  ÀÄ*
+      ³  ÃÄ@PSTRINGC7_723  1/120  Ram=4
+      ³  ³  ÀÄ*
+      ³  ÃÄLCD_Goto  1/57  Ram=3
+      ³  ³  ÀÄ*
+      ³  ÃÄ@PSTRINGC7_723  1/120  Ram=4
+      ³  ³  ÀÄ*
+      ³  ÃÄLCD_Goto  1/57  Ram=3
+      ³  ³  ÀÄ*
+      ³  ÃÄ@PSTRINGC7_723  1/120  Ram=4
+      ³  ³  ÀÄ*
+      ³  ÃÄLCD_Goto  1/57  Ram=3
+      ³  ³  ÀÄ*
+      ³  ÃÄ@PSTRINGC7_723  1/120  Ram=4
+      ³  ³  ÀÄ*
+      ³  ÃÄLCD_Goto  1/57  Ram=3
+      ³  ³  ÀÄ*
+      ³  ÃÄ@PSTRINGC7_723  1/120  Ram=4
+      ³  ³  ÀÄ*
+      ³  ÃÄLCD_Goto  1/57  Ram=3
+      ³  ³  ÀÄ*
+      ³  ÃÄ@PSTRINGC7_723  1/120  Ram=4
+      ³  ³  ÀÄ*
+      ³  ÃÄLCD_Goto  1/57  Ram=3
+      ³  ³  ÀÄ*
+      ³  ÃÄ@PSTRINGC7_723  1/120  Ram=4
+      ³  ³  ÀÄ*
+      ³  ÃÄLCD_Goto  1/57  Ram=3
+      ³  ³  ÀÄ*
+      ³  ÃÄ@PSTRINGC7_723  1/120  Ram=4
+      ³  ³  ÀÄ*
+      ³  ÃÄLCD_Goto  1/57  Ram=3
+      ³  ³  ÀÄ*
+      ³  ÃÄ@PSTRINGC7_723  1/120  Ram=4
+      ³  ³  ÀÄ*
+      ³  ÃÄLCD_Goto  1/57  Ram=3
+      ³  ³  ÀÄ*
+      ³  ÀÄ@PSTRINGC7_723  1/120  Ram=4
+      ³     ÀÄ*
+      ÃÄpos_current  2/629  Ram=2
+      ³  ÃÄmode_ON  2/66  Ram=0
+      ³  ³  ÃÄLCD_Goto  1/57  Ram=3
+      ³  ³  ³  ÀÄ*
+      ³  ³  ÃÄ@PSTRINGC7_723  1/120  Ram=4
+      ³  ³  ³  ÀÄ*
+      ³  ³  ÃÄLCD_Goto  1/57  Ram=3
+      ³  ³  ³  ÀÄ*
+      ³  ³  ÃÄ@PSTRINGC7_723  1/120  Ram=4
+      ³  ³  ³  ÀÄ*
+      ³  ³  ÃÄLCD_Goto  1/57  Ram=3
+      ³  ³  ³  ÀÄ*
+      ³  ³  ÀÄ@PSTRINGC7_723  1/120  Ram=4
+      ³  ³     ÀÄ*
+      ³  ÃÄpos_relay_2  (Inline)  Ram=0
+      ³  ³  ÃÄLCD_Goto  1/57  Ram=3
+      ³  ³  ³  ÀÄ*
+      ³  ³  ÃÄ@PSTRINGC7_723  1/120  Ram=4
+      ³  ³  ³  ÀÄ*
+      ³  ³  ÃÄLCD_Goto  1/57  Ram=3
+      ³  ³  ³  ÀÄ*
+      ³  ³  ÃÄ@PSTRINGC7_723  1/120  Ram=4
+      ³  ³  ³  ÀÄ*
+      ³  ³  ÃÄLCD_Goto  1/57  Ram=3
+      ³  ³  ³  ÀÄ*
+      ³  ³  ÃÄ@PSTRINGC7_723  1/120  Ram=4
+      ³  ³  ³  ÀÄ*
+      ³  ³  ÃÄLCD_Goto  1/57  Ram=3
+      ³  ³  ³  ÀÄ*
+      ³  ³  ÃÄ@PSTRINGC7_723  1/120  Ram=4
+      ³  ³  ³  ÀÄ*
+      ³  ³  ÃÄLCD_Goto  1/57  Ram=3
+      ³  ³  ³  ÀÄ*
+      ³  ³  ÃÄ@PSTRINGC7_723  1/120  Ram=4
+      ³  ³  ³  ÀÄ*
+      ³  ³  ÃÄLCD_Goto  1/57  Ram=3
+      ³  ³  ³  ÀÄ*
+      ³  ³  ÃÄ@PSTRINGC7_723  1/120  Ram=4
+      ³  ³  ³  ÀÄ*
+      ³  ³  ÃÄLCD_Goto  1/57  Ram=3
+      ³  ³  ³  ÀÄ*
+      ³  ³  ÃÄ@PSTRINGC7_723  1/120  Ram=4
+      ³  ³  ³  ÀÄ*
+      ³  ³  ÃÄLCD_Goto  1/57  Ram=3
+      ³  ³  ³  ÀÄ*
+      ³  ³  ÃÄ@PSTRINGC7_723  1/120  Ram=4
+      ³  ³  ³  ÀÄ*
+      ³  ³  ÃÄLCD_Goto  1/57  Ram=3
+      ³  ³  ³  ÀÄ*
+      ³  ³  ÃÄ@PSTRINGC7_723  1/120  Ram=4
+      ³  ³  ³  ÀÄ*
+      ³  ³  ÃÄLCD_Goto  1/57  Ram=3
+      ³  ³  ³  ÀÄ*
+      ³  ³  ÃÄ@PSTRINGC7_723  1/120  Ram=4
+      ³  ³  ³  ÀÄ*
+      ³  ³  ÃÄLCD_Goto  1/57  Ram=3
+      ³  ³  ³  ÀÄ*
+      ³  ³  ÃÄ@PSTRINGC7_723  1/120  Ram=4
+      ³  ³  ³  ÀÄ*
+      ³  ³  ÃÄLCD_Goto  1/57  Ram=3
+      ³  ³  ³  ÀÄ*
+      ³  ³  ÀÄ@PSTRINGC7_723  1/120  Ram=4
+      ³  ³     ÀÄ*
+      ³  ÃÄmode_ON  2/66  Ram=0
+      ³  ³  ÀÄ*
+      ³  ÃÄpos_auto_2  (Inline)  Ram=0
+      ³  ³  ÃÄLCD_Goto  1/57  Ram=3
+      ³  ³  ³  ÀÄ*
+      ³  ³  ÃÄ@PSTRINGC7_723  1/120  Ram=4
+      ³  ³  ³  ÀÄ*
+      ³  ³  ÃÄLCD_Goto  1/57  Ram=3
+      ³  ³  ³  ÀÄ*
+      ³  ³  ÀÄ@PSTRINGC7_723  1/120  Ram=4
+      ³  ³     ÀÄ*
+      ³  ÃÄmode_ON  2/66  Ram=0
+      ³  ³  ÀÄ*
+      ³  ÀÄpos_tmr_2  (Inline)  Ram=0
+      ³     ÃÄds1307_read  2/86  Ram=0
+      ³     ³  ÃÄ@I2C_WRITEU_131  0/18  Ram=1
+      ³     ³  ÃÄ@I2C_WRITEU_131  0/18  Ram=1
+      ³     ³  ÃÄ@I2C_WRITEU_131  0/18  Ram=1
+      ³     ³  ÃÄ@I2C_READU_131  0/16  Ram=1
+      ³     ³  ÃÄ@I2C_READU_131  0/16  Ram=1
+      ³     ³  ÃÄ@I2C_READU_131  0/16  Ram=1
+      ³     ³  ÃÄ@I2C_READU_131  0/16  Ram=1
+      ³     ³  ÃÄ@I2C_READU_131  0/16  Ram=1
+      ³     ³  ÃÄ@I2C_READU_131  0/16  Ram=1
+      ³     ³  ÀÄ@I2C_READU_131  0/16  Ram=1
+      ³     ÃÄalarm_check  (Inline)  Ram=3
+      ³     ³  ÃÄ@MUL88  2/39  Ram=2
+      ³     ³  ÃÄ@MUL88  2/39  Ram=2
+      ³     ³  ÃÄ@MUL88  2/39  Ram=2
+      ³     ³  ÀÄ@MUL88  2/39  Ram=2
+      ³     ÃÄds1307_display  2/235  Ram=1
+      ³     ³  ÃÄLCD_Goto  1/57  Ram=3
+      ³     ³  ³  ÀÄ*
+      ³     ³  ÃÄ@PSTRINGR_723  2/31  Ram=2
+      ³     ³  ³  ÀÄLCD_Out  0/20  Ram=2
+      ³     ³  ³     ÀÄ*
+      ³     ³  ÃÄLCD_Goto  1/57  Ram=3
+      ³     ³  ³  ÀÄ*
+      ³     ³  ÃÄ@goto44708  2/11  Ram=0
+      ³     ³  ÃÄ@PSTRINGC7_723  1/120  Ram=4
+      ³     ³  ³  ÀÄ*
+      ³     ³  ÃÄ@PSTRINGC7_723  1/120  Ram=4
+      ³     ³  ³  ÀÄ*
+      ³     ³  ÃÄ@PSTRINGC7_723  1/120  Ram=4
+      ³     ³  ³  ÀÄ*
+      ³     ³  ÃÄ@PSTRINGC7_723  1/120  Ram=4
+      ³     ³  ³  ÀÄ*
+      ³     ³  ÃÄ@PSTRINGC7_723  1/120  Ram=4
+      ³     ³  ³  ÀÄ*
+      ³     ³  ÃÄ@PSTRINGC7_723  1/120  Ram=4
+      ³     ³  ³  ÀÄ*
+      ³     ³  ÃÄ@PSTRINGC7_723  1/120  Ram=4
+      ³     ³  ³  ÀÄ*
+      ³     ³  ÃÄLCD_Goto  1/57  Ram=3
+      ³     ³  ³  ÀÄ*
+      ³     ³  ÀÄ@PSTRINGR_723  2/31  Ram=2
+      ³     ³     ÀÄ*
+      ³     ÃÄalarm_display  (Inline)  Ram=1
+      ³     ³  ÃÄ@DIV88  0/25  Ram=3
+      ³     ³  ÃÄ@DIV88  0/25  Ram=3
+      ³     ³  ÃÄ@DIV88  0/25  Ram=3
+      ³     ³  ÃÄ@DIV88  0/25  Ram=3
+      ³     ³  ÃÄLCD_Goto  1/57  Ram=3
+      ³     ³  ³  ÀÄ*
+      ³     ³  ÃÄ@PSTRINGR_723  2/31  Ram=2
+      ³     ³  ³  ÀÄ*
+      ³     ³  ÃÄLCD_Goto  1/57  Ram=3
+      ³     ³  ³  ÀÄ*
+      ³     ³  ÃÄ@DIV88  0/25  Ram=3
+      ³     ³  ÃÄ@DIV88  0/25  Ram=3
+      ³     ³  ÃÄ@DIV88  0/25  Ram=3
+      ³     ³  ÃÄ@DIV88  0/25  Ram=3
+      ³     ³  ÃÄLCD_Goto  1/57  Ram=3
+      ³     ³  ³  ÀÄ*
+      ³     ³  ÃÄ@PSTRINGR_723  2/31  Ram=2
+      ³     ³  ³  ÀÄ*
+      ³     ³  ÀÄLCD_Goto  1/57  Ram=3
+      ³     ³     ÀÄ*
+      ³     ÀÄ@delay_ms1  0/20  Ram=1
+      ÃÄ@MUL88  2/39  Ram=2
+      ÃÄ@MUL88  2/39  Ram=2
+      ÃÄ@MUL88  2/39  Ram=2
+      ÃÄ@MUL88  2/39  Ram=2
+      ÃÄ@MUL88  2/39  Ram=2
+      ÃÄedit  2/323  Ram=3
+      ³  ÃÄLCD_Goto  1/57  Ram=3
+      ³  ³  ÀÄ*
+      ³  ÃÄ@PRINTF_U_723  1/77  Ram=2
+      ³  ³  ÀÄ*
+      ³  ÃÄds1307_read  2/86  Ram=0
+      ³  ³  ÀÄ*
+      ³  ÃÄds1307_display  2/235  Ram=1
+      ³  ³  ÀÄ*
+      ³  ÃÄ@delay_ms1  0/20  Ram=1
+      ³  ÃÄLCD_Goto  1/57  Ram=3
+      ³  ³  ÀÄ*
+      ³  ÃÄ@PSTRINGC7_723  1/120  Ram=4
+      ³  ³  ÀÄ*
+      ³  ÃÄ@delay_ms1  0/20  Ram=1
+      ³  ÃÄLCD_Goto  1/57  Ram=3
+      ³  ³  ÀÄ*
+      ³  ÃÄ@PRINTF_U_723  1/77  Ram=2
+      ³  ³  ÀÄ*
+      ³  ÃÄ@delay_ms1  0/20  Ram=1
+      ³  ÃÄds1307_read  2/86  Ram=0
+      ³  ³  ÀÄ*
+      ³  ÀÄds1307_display  2/235  Ram=1
+      ³     ÀÄ*
+      ÃÄedit  2/323  Ram=3
+      ³  ÀÄ*
+      ÃÄLCD_Goto  1/57  Ram=3
+      ³  ÀÄ*
+      ÃÄ@goto45645  3/11  Ram=0
+      ÃÄ@PSTRINGC7_723  1/120  Ram=4
+      ³  ÀÄ*
+      ÃÄ@PSTRINGC7_723  1/120  Ram=4
+      ³  ÀÄ*
+      ÃÄ@PSTRINGC7_723  1/120  Ram=4
+      ³  ÀÄ*
+      ÃÄ@PSTRINGC7_723  1/120  Ram=4
+      ³  ÀÄ*
+      ÃÄ@PSTRINGC7_723  1/120  Ram=4
+      ³  ÀÄ*
+      ÃÄ@PSTRINGC7_723  1/120  Ram=4
+      ³  ÀÄ*
+      ÃÄ@PSTRINGC7_723  1/120  Ram=4
+      ³  ÀÄ*
+      ÃÄ@delay_ms1  0/20  Ram=1
+      ÃÄLCD_Goto  1/57  Ram=3
+      ³  ÀÄ*
+      ÃÄ@PSTRINGC7_723  1/120  Ram=4
+      ³  ÀÄ*
+      ÃÄ@delay_ms1  0/20  Ram=1
+      ÃÄLCD_Goto  1/57  Ram=3
+      ³  ÀÄ*
+      ÃÄ@goto45695  3/11  Ram=0
+      ÃÄ@PSTRINGC7_723  1/120  Ram=4
+      ³  ÀÄ*
+      ÃÄ@PSTRINGC7_723  1/120  Ram=4
+      ³  ÀÄ*
+      ÃÄ@PSTRINGC7_723  1/120  Ram=4
+      ³  ÀÄ*
+      ÃÄ@PSTRINGC7_723  1/120  Ram=4
+      ³  ÀÄ*
+      ÃÄ@PSTRINGC7_723  1/120  Ram=4
+      ³  ÀÄ*
+      ÃÄ@PSTRINGC7_723  1/120  Ram=4
+      ³  ÀÄ*
+      ÃÄ@PSTRINGC7_723  1/120  Ram=4
+      ³  ÀÄ*
+      ÃÄ@delay_ms1  0/20  Ram=1
+      ÃÄedit  2/323  Ram=3
+      ³  ÀÄ*
+      ÃÄedit  2/323  Ram=3
+      ³  ÀÄ*
+      ÃÄedit  2/323  Ram=3
+      ³  ÀÄ*
+      ÃÄ@DIV88  0/25  Ram=3
+      ÃÄ@DIV88  0/25  Ram=3
+      ÃÄ@DIV88  0/25  Ram=3
+      ÃÄ@DIV88  0/25  Ram=3
+      ÃÄ@DIV88  0/25  Ram=3
+      ÃÄ@DIV88  0/25  Ram=3
+      ÃÄ@DIV88  0/25  Ram=3
+      ÃÄ@DIV88  0/25  Ram=3
+      ÃÄ@DIV88  0/25  Ram=3
+      ÃÄ@DIV88  0/25  Ram=3
+      ÃÄds1307_write  2/30  Ram=2
+      ³  ÃÄ@I2C_WRITEU_131  0/18  Ram=1
+      ³  ÃÄ@I2C_WRITEU_131  0/18  Ram=1
+      ³  ÀÄ@I2C_WRITEU_131  0/18  Ram=1
+      ÃÄds1307_write  2/30  Ram=2
+      ³  ÀÄ*
+      ÃÄds1307_write  2/30  Ram=2
+      ³  ÀÄ*
+      ÃÄds1307_write  2/30  Ram=2
+      ³  ÀÄ*
+      ÃÄds1307_write  2/30  Ram=2
+      ³  ÀÄ*
+      ÃÄds1307_write  2/30  Ram=2
+      ³  ÀÄ*
+      ÃÄds1307_write  2/30  Ram=2
+      ³  ÀÄ*
+      ÃÄedit  2/323  Ram=3
+      ³  ÀÄ*
+      ÃÄedit  2/323  Ram=3
+      ³  ÀÄ*
+      ÃÄedit  2/323  Ram=3
+      ³  ÀÄ*
+      ÃÄedit  2/323  Ram=3
+      ³  ÀÄ*
+      ÀÄ@delay_ms1  0/20  Ram=1
